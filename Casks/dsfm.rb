@@ -4,8 +4,8 @@ cask "dsfm" do
 
   url "https://github.com/alex-brc/dsfm/releases/download/v#{version}/DSFM-#{version}.dmg"
   name "DualSense for Mac"
-  desc "Unlocks the full input surface of PS5 DualSense controllers on macOS over Bluetooth"
-  homepage "https://brc.xyz"
+  desc "Unlocks the full input surface of PS5 DualSense controllers over Bluetooth"
+  homepage "https://brc.xyz/"
 
   app "DSFM.app"
 
