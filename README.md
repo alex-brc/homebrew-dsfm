@@ -1,11 +1,11 @@
 # homebrew-dsfm
 
-Homebrew tap for [DualSense for Mac](https://github.com/alex-brc/dsfm) — a macOS menu bar app that unlocks the full input surface of PS5 DualSense controllers over Bluetooth.
+Homebrew tap for [DualSense for Mac](https://github.com/brc-xyz/dsfm) — a macOS menu bar app that unlocks the full input surface of PS5 DualSense controllers over Bluetooth.
 
 ## Install
 
 ```sh
-brew tap alex-brc/dsfm
+brew tap brc-xyz/dsfm
 brew install --cask dsfm
 ```
 
@@ -13,5 +13,5 @@ brew install --cask dsfm
 
 ```sh
 brew uninstall --cask dsfm
-brew untap alex-brc/dsfm
+brew untap brc-xyz/dsfm
 ```

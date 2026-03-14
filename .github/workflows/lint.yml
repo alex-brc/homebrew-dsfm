@@ -16,5 +16,5 @@ jobs:
 
       - name: Audit cask (offline)
         run: |
-          brew tap alex-brc/dsfm .
-          brew audit --cask alex-brc/dsfm/dsfm
+          brew tap brc-xyz/dsfm .
+          brew audit --cask brc-xyz/dsfm/dsfm
