@@ -8,7 +8,7 @@ cask "dsfm" do
   desc "Unlocks the full input surface of PS5 DualSense controllers over Bluetooth"
   homepage "https://brc.xyz/"
 
-  app "DSFM.app"
+  app "DualSense for Mac.app"
 
   uninstall quit: "xyz.brc.dsfm"
 
