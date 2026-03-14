@@ -15,4 +15,6 @@ jobs:
         run: brew style Casks/dsfm.rb
 
       - name: Audit cask (offline)
-        run: brew audit --cask Casks/dsfm.rb
+        run: |
+          brew tap alex-brc/dsfm .
+          brew audit --cask alex-brc/dsfm/dsfm
